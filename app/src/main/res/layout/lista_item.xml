@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imagen_clase"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/anutrof"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        >
+        <TextView
+            android:id="@+id/nombre_clase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:layout_margin="4dp"/>
+        <TextView
+            android:id="@+id/descripcion_clase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esta es una descripcion"/>
+        <TextView
+            android:id="@+id/dios_clase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dios: ..."/>
+        <TextView
+            android:id="@+id/tipo_clase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo: ..."/>
+        <TextView
+            android:id="@+id/especialidad_clase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esepecialidad: ..."/>
+
+    </LinearLayout>
+</LinearLayout>
